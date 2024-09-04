@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Barra de arriba y botones */
+
+header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 1200px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.searchBar{
+    height: 20px;
+    width: 600px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.loginButton{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 6px;
+}
+
+/* Contenido principal pagina */
+main{
+
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.animalBoxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contenido{
+    border: 2px solid black;
+    padding: 10px;
+    height: 180px;
+    width: 800px;
+}
+
+.contenido > * {
+    margin-bottom: 10px;
+}
+
+.contenido2{
+    border: 2px solid black;
+    padding: 10px;
+    height: 70px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contenido2 > * {
+    margin-bottom: 10px;
+}
+
+.likeButton{
+    background-color: rgb(255, 245, 103);
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.definitionButton{
+    background-color: rgb(43, 153, 0);
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 150px;
+}
